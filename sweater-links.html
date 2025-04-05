@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>مرجع ملفات شركة سويتر</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+  margin: 0;
+  font-family: 'Cairo', sans-serif;
+  background-color: #e05d2f;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+    header {
+      background-color: #e05d2f;
+      padding: 30px;
+      text-align: center;
+      border-radius: 0 0 30px 30px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+      position: relative;
+    }
+
+    header img {
+      max-width: 220px;
+      height: auto;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0); }
+    }
+
+    .container {
+      padding: 50px 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 30px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  cursor: pointer;
+}
+
+    .card-link:hover {
+      transform: scale(1.03);
+      filter: brightness(1.05);
+    }
+
+    .card {
+  background: linear-gradient(145deg, #fffaf5, #fce3d2);
+  color: #1b1b1b;
+  height: 180px;
+  padding: 20px 15px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05), 0 8px 16px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+    .card::before {
+      content: "";
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(circle, rgba(224, 93, 47, 0.08), transparent 70%);
+      transform: rotate(25deg);
+    }
+
+    .card i {
+  font-size: 2.2em;
+  color: #e05d2f;
+  margin-bottom: 10px;
+  z-index: 1;
+  transition: transform 0.3s ease;
+}
+
+.card:hover i {
+  transform: scale(1.2) rotate(5deg);
+}
+
+    .card hr {
+      border: none;
+      height: 1px;
+      background-color: #e05d2f;
+      margin: 10px auto;
+      width: 50%;
+      z-index: 1;
+    }
+
+    .card span {
+      font-size: 1.1em;
+      font-weight: bold;
+      z-index: 1;
+    }
+
+    .card span small {
+      display: block;
+      font-size: 0.9em;
+      font-weight: normal;
+      color: #444;
+      margin-top: 5px;
+    }
+
+    .update-label {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 0.65em;
+  color: #fff;
+  background-color: #e05d2f;
+  padding: 2px 8px;
+  border-radius: 50px;
+  z-index: 2;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4px);
+}
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://i.ibb.co/5XvpYnbG/Logo-2.png" alt="شعار سويتر">
+  </header>
+
+  <div class="container">
+    <a href="https://drive.google.com/drive/folders/1IgRH-rTEouqd9iYGo9JvQjKMt9LWoZ6I?usp=share_link" target="_blank" class="card-link">
+      <div class="card">
+        <div class="update-label" title="تم تحديث هذا الملف مؤخرًا">مُحدّث</div>
+        <i class="fa-solid fa-palette"></i>
+        <hr>
+        <span>الهوية البصرية<br><small>Brand Identity</small></span>
+      </div>
+    </a>
+    <a href="https://drive.google.com/drive/folders/1qG0U21YgfGsjk3zmRqaFwD4fpVDycmRN?usp=share_link" target="_blank" class="card-link">
+      <div class="card">
+        <div class="update-label">مُحدّث</div>
+        <i class="fa-solid fa-file-lines"></i>
+        <hr>
+        <span>الملف التعريفي<br><small>Company Profile</small></span>
+      </div>
+    </a>
+    <a href="https://drive.google.com/drive/folders/1mX2wLcv2iTWkXcw_kbsTQNHVrFHeMPZf?usp=share_link" target="_blank" class="card-link">
+      <div class="card">
+        <div class="update-label">مُحدّث</div>
+        <i class="fa-solid fa-image"></i>
+        <hr>
+        <span>الشعار<br><small>Logo</small></span>
+      </div>
+    </a>
+    <a href="https://drive.google.com/drive/folders/1oGdmfwNZ7l4fRVNujlex05Pc0leP92G9?usp=share_link" target="_blank" class="card-link">
+      <div class="card">
+        <div class="update-label">مُحدّث</div>
+        <i class="fa-solid fa-folder-open"></i>
+        <hr>
+        <span>مكتبة الصور<br><small>Image Library</small></span>
+      </div>
+    </a>
+</div>
+<footer style="text-align: center; padding: 20px; font-size: 0.9em; color: #fff; opacity: 0.7;">
+  &copy; 2025 شركة سويتر - جميع الحقوق محفوظة
+</footer>
+</html>
